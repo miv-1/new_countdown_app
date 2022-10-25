@@ -22,6 +22,7 @@ function Card({ title, doDateTimestamp, currentTimestamp, message }) {
 function ConditionalTimeRender({ isTimeOut, doDateTimestamp, message }) {
     if (!isTimeOut)
         return <CountdownTimer countdownTimestampMs={doDateTimestamp} />;
+
     return <div>
         {message}
         <br/>
