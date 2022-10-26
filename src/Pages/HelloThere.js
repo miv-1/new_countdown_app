@@ -1,6 +1,7 @@
 import React from "react";
 import '../bootstrap.min.css'
 import '../Pages/HelloThere.css'
+import pic from '../images/image001.png'
 
 
 function HelloThere() {
@@ -21,9 +22,9 @@ function HelloThere() {
 
             </div>
 
-          {/*<div className='image'>
-              <img src={pic} alt="Meme"/>
-          </div>*/}
+          <div className='image'>
+              <img src={pic} class="img-fluid" alt="Meme"/>
+          </div>
 
       </div>
 
