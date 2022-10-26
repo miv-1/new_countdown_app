@@ -1,12 +1,14 @@
 import Card from "../components/Card";
 import customData from "../data.json";
 import '../bootstrap.min.css'
+import picture from "../images/image001.png";
 
 function Home() {
   const currentTimestamp = Date.now();
   const cards = customData.data;
 
   return (
+    <div>
     <div className="container d-flex justify-content-center">
       <div className="row" >
         {cards.map((card) => (
@@ -19,6 +21,11 @@ function Home() {
           />
         ))}
       </div>
+
+    </div>
+        <div>
+            <img src={picture} class="img-fluid" alt="meme"/>
+        </div>
     </div>
   );
 }
