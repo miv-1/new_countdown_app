@@ -18,13 +18,15 @@ function Home() {
             doDateTimestamp={Date.parse(card.doDate)}
             currentTimestamp={currentTimestamp}
             message={card.message}
+            company={card.company}
+            nextPosition={card.nextPosition}
           />
         ))}
       </div>
 
     </div>
         <div>
-            <img src={picture} class="img-fluid" alt="meme"/>
+            <img src={picture} className="img-fluid" alt="meme"/>
         </div>
     </div>
   );

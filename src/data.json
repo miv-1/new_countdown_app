@@ -2,15 +2,28 @@
   "data": [
     {
       "id": "0",
-      "title": "Vaklaf end",
+      "title": "Vaklaf",
       "doDate": "2022-12-01",
-      "message": "Congratulation, now you are working in IT!"
+      "message": "Congratulation, now you are working in IT!",
+      "company": "Bosch",
+      "nextPosition": "SW developer (Bosch)"
     },
     {
       "id": "1",
       "title": "Zelí",
+      "doDate": "2022-12-22",
+      "message": "nice move, congrats",
+      "company": "Bosch",
+      "nextPosition": "topSecret"
+    },
+    {
+      "id": "2",
+      "title": "Adam",
       "doDate": "2023-01-01",
-      "message": "nice move, congrats"
+      "message": "nice move, congrats",
+      "company": "Lundegaard",
+      "nextPosition": "not decided"
     }
+
   ]
 }
